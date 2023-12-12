@@ -1,0 +1,18 @@
+/* src/components/About.css */
+.about-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .about-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .about-info {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Add additional styles as needed */
+  

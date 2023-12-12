@@ -1,0 +1,88 @@
+/* PlayfairCipherPage.css */
+
+.mt-5 {
+    margin-top: 5rem;
+}
+
+.card {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.formInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+.custom-button {
+    padding: 4px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #4CAF50; /* Green border color */
+    color: #000000; /* Black text color */
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-top: 1px;
+    margin-bottom: 5px;
+}
+
+.custom-button.active {
+    background-color: #4CAF50; /* Green background color */
+    color: #ffffff;
+}
+
+.custom-button:hover {
+    background-color: #45a049; /* Darker green background color on hover */
+    color: #ffffff;
+}
+
+.result-container {
+    margin-top: 20px;
+}
+
+.result-label {
+    font-weight: bold;
+}
+
+.result-text {
+    white-space: pre-line;
+}
+
+.copy-button {
+    margin-top: 10px;
+}
+
+/* Responsive styles for smaller screens */
+@media only screen and (max-width: 600px) {
+    .mt-5 {
+        margin-top: 3rem;
+    }
+
+    .card {
+        max-width: 100%;
+    }
+
+    .formInput {
+        width: calc(100% - 20px); /* Adjust as needed */
+    }
+
+    .custom-button {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}

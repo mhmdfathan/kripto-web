@@ -1,0 +1,21 @@
+/* src/components/Profile.css */
+.profile-container {
+    text-align: center;
+  }
+  
+  .profile-info {
+    margin-top: 20px;
+  }
+  
+  .profile-image {
+    width: 150px; /* Set the desired width */
+    height: 150px; /* Set the desired height */
+    border-radius: 50%; /* Make the image circular */
+    object-fit: cover; /* Maintain aspect ratio and cover container */
+    margin-bottom: 10px;
+  }
+  
+  .profile-info p {
+    margin: 10px 0;
+  }
+  
